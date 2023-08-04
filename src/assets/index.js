@@ -19,11 +19,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import SystemAdmin from "./SystemAdmin.png";
+import NetworkSpecialist from "./NetworkSpecialist.png";
+import WebDeveloper from "./WebDeveloper.png";
+import TeamLeader from "./TeamLeader.png";
+import SGLABS from "./SGLABS.png";
+import mirth from "./mirth.png"; 
+import ucdChem from "./UCD-Chem.png"; 
+import ucdComp from "./UCD-CompSci.png"; 
+import comptia from "./comptia.png";
+import ec2 from "./awsEC2.png"; 
+import s3 from "./s3.png"; 
+import tfamily from "./transferFamily.png";
+import o365 from "./o365.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -51,11 +59,20 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  SystemAdmin,
+  NetworkSpecialist, 
+  WebDeveloper, 
+  TeamLeader,
+  SGLABS,
+  mirth, 
+  ucdChem, 
+  ucdComp,
+  comptia,
+  ec2, 
+  s3, 
+  tfamily,
+  o365,
 };

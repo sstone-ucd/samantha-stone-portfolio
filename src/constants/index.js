@@ -1,10 +1,17 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    SystemAdmin,
+    NetworkSpecialist, 
+    TeamLeader, 
+    WebDeveloper,
+    SGLABS,
+    mirth, 
+    ucdChem, 
+    comptia,
+    ec2, 
+    s3, 
+    tfamily,
+    o365,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -15,14 +22,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+
   } from "../assets";
   
   export const navLinks = [
@@ -42,30 +46,62 @@ import {
   
   const services = [
     {
+      title: "System Administrator",
+      icon: SystemAdmin,
+    },
+    {
+      title: "Team Leader",
+      icon: TeamLeader,
+    },
+    {
+      title: "Network Specialist",
+      icon: NetworkSpecialist,
+    },
+    {
       title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
+      icon: WebDeveloper,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: "B.A. Computer Science",
+      icon: ucdChem,
+    },
+    {
+      name: "B.S. Biochemistry",
+      icon: ucdChem,
+    },
+    {
+      name: "Network+",
+      icon: comptia,
+    },
+    {
+      name: "Mirth Fundementals",
+      icon: mirth,
+    },
+    {
+      name: "HL7",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "AWS EC2",
+      icon: ec2,
+    },
+    {
+      name: "AWS S3",
+      icon: s3,
+    },
+    {
+      name: "AWS Transfer Family",
+      icon: tfamily,
+    },
+    {
+      name: "Office 365",
+      icon: o365,
+    },
+    {
+      name: "C",
       icon: css,
     },
     {
@@ -73,23 +109,15 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
+      name: "ReactJS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
+      name: "Tailwind",
       icon: tailwind,
     },
     {
-      name: "Node JS",
+      name: "NodeJs",
       icon: nodejs,
     },
     {
@@ -101,70 +129,42 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Github",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "IT Executive Director",
+      company_name: "S&G Labs",
+      icon: SGLABS,
+      iconBg: "#ffffff",
+      date: "Jan 2016 - Current",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "IT Strategy and Planning: Develop and implement an IT strategy aligned with the lab's overall business objectives. Identify opportunities to leverage technology to enhance lab efficiency, accuracy, and compliance.",
+        "Technology Infrastructure Management: Oversee the lab's technology infrastructure, including servers, networking equipment, storage systems, and backup solutions. Ensure the availability, reliability, and security of all IT systems.", 
+        "Data Security and Compliance: Implement and maintain robust data security measures to protect sensitive patient information and ensure compliance with relevant regulations (e.g., HIPAA, GDPR).",
+        "Software and Application Management: Evaluate, select, and manage the deployment of software applications relevant to the lab's operations including laboratory information management systems (LIMS), website/apps, and data analysis tools.",
+        "IT Policy Development and Enforcement: Establish and enforce IT policies, procedures, and best practices to maintain a secure and compliant technology environment.",
+        "Data Analytics and Reporting: Work with data analysts to generate meaningful insights from lab data and develop customized reports for stakeholders.",
+        "Team Leadership: Manage the IT team, including hiring, training, and performance management. Foster a collaborative and supportive work environment."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Laboratory Technician",
+      company_name: "S&G Labs",
+      icon: SGLABS,
+      iconBg: "#ffffff",
+      date: "Jan 2014 - Jan 2016",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Laboratory Testing and Sample Processing: Perform immunoassay toxicology tests on patient samples following standard operating procedures (SOPs) and safety guidelines.",
+        "Instrument Calibration and Maintenance: Calibrate and maintain laboratory instruments regularly to ensure accurate and reliable test results.",
+        "Data Entry and Management: Record and manage test results, patient information, and other laboratory data accurately and securely using laboratory information management systems (LIMS)",
+        "IT Support for Lab Staff: Provide technical support and assistance to lab staff regarding hardware, software, and network issues.",
+        "Troubleshooting and Issue Resolution: Diagnose and resolve technical problems related to laboratory equipment, computers, and software applications.", 
+        "Training and User Education: Conduct training sessions for lab staff on using laboratory equipment, LIMS, and other IT tools effectively and securely."
       ],
     },
   ];

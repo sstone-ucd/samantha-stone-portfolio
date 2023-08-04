@@ -1,8 +1,22 @@
-import React from 'react'
+import { Html, useProgress,  } from "@react-three/drei"; 
 
+//Displays load % for 3D graphic on page referesh
 const Loader = () => {
+  const { progress } = useProgress(); 
   return (
-    <div>Loader</div>
+   <Html>
+    <span className="canvas-load"></span>
+    <p
+      style={{
+        fontSize: 14, 
+        fontWeight: 800, 
+        color: "#f1f1f1", 
+        marginTop: 40
+      }}
+    >{progress.toFixed(2)}%
+
+    </p>
+   </Html>
   )
 }
 
