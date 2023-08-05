@@ -2,8 +2,8 @@
 Repository for my digital resume samantha-stone.com
 
 ##Frameworks & Libraries
-    -Vite to react template files 
-    -Tailwind for css framework
+    - Vite to react template files 
+    - Tailwind for css framework
     - Legacy peer deps used to accomodate legacy version of react for react for react tilt library
     - react-fiber and react-drei: 3js library for 3d image control
     - maath: math functions for 3d geometry
