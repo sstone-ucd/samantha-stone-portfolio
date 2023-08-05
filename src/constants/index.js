@@ -15,17 +15,14 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    carrent,
     jobit,
     tripguide,
     threejs,
+    portfolio,
 
   } from "../assets";
   
@@ -198,16 +195,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "No, this isnt inception, you're not in a dream within a dream, this is the respository for the very portfolio you see before you now.  There are tons of great 3D and react libraries used here",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
@@ -215,8 +212,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/sstone-ucd/samantha-stone-portfolio.git",
     },
     {
       name: "Job IT",

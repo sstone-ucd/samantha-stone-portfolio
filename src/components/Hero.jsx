@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'; 
 import {styles} from '../styles'; 
-import {OrchidCanvas} from './canvas';
+import {BirdCanvas} from './canvas';
 
 const Hero = () => {
   return (
@@ -18,12 +18,14 @@ const Hero = () => {
       <div>
         <h1 className={`${styles.heroHeadText} text-[#3C3C3C]`}>Welcome, <span className='text-[#626E60]'>lovely to see you!</span></h1>
         <p className={`${styles.heroSubText} mt-2 text-charcoal`}>
-          You made it to my online resume, thats a good siign. <br className='sm:block hidden'  /> Check out some of my projects below!
+          You made it to my online resume, thats a good siign. 
+          <br className='sm:block hidden'  /> Check out some of my projects below!
+          <br className='sm:block hidden'  /> Or pet the bird and see if he jumps!  
         </p>
       </div>
       </div>
-      {/* Add the 3-D image from the orchid component*/}
-      <OrchidCanvas />
+      {/* Add the 3-D animated image from the bird component*/}
+      <BirdCanvas />
       {/* Add the animated scrolling mouse link to the about section */}
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href="#about">

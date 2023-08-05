@@ -41,8 +41,8 @@ const Orchids = ({ isMobile }) => {
         <primitive 
             object={orchid.scene}
             scale = {isMobile ? 0.5 : 0.8}
-            position = {isMobile ? [2, 2, -2.2] : [4, 3, -2.5]}
-            rotation={[0, 0, 15]}
+            position = {isMobile ? [2, 2, -2.2] : [-2, -4, 0]}
+            rotation={[-0.01, 0, 0]}
             
         />
 
@@ -77,7 +77,7 @@ const OrchidCanvas = () => {
   return (
     <Canvas
         //FOV: how wide the canvas is
-        camera={{ position: [0, 0, 40], fov:25 }}
+        camera={{ position: [0, 0, 30], fov:25 }}
         shadows
         frameloop='demand'
       
@@ -87,9 +87,9 @@ const OrchidCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 1.87}
           minPolarAngle={Math.PI / 2}
-          maxAzimuthAngle={Math.PI/2}
-          autoRotate
-          autoRotateSpeed={5}
+          //maxAzimuthAngle={Math.PI/2}
+          //autoRotate
+          //autoRotateSpeed={5}
 
         />
         <Orchids isMobile={isMobile} />

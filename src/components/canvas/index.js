@@ -1,5 +1,7 @@
-import EarthCanvas from "./Earth";
+
 import StarsCanvas from "./Stars";
 import OrchidCanvas from "./orchid";
+import LotusCanvas from "./LotusCanvas"
+import BirdCanvas from "./BirdCanvas";
 
-export { EarthCanvas, StarsCanvas, OrchidCanvas };
+export {StarsCanvas, OrchidCanvas, BirdCanvas, LotusCanvas };

@@ -24,6 +24,11 @@ Repository for my digital resume samantha-stone.com
         -Experience: Work experience utilizing react vertical timeline
         -Tech: 3D elements to list known skills/certs/software
         -Works:links to GitHub repositories
+        ### canvas: 
+            - BirdCanvas: creates the animated 3d bird on hero component
+                Method: get glb file from sketchlab, run npx gltfjsx [fileName.glb] (must have node installed), 
+                adjust position in created jsx file (saved in public), and useEffect for animation, 
+                find animation name by console logging 'animation',  create BirdCanvas component and import model from jsx file
     - constants: text data for the page saved as constants. Allows component pages to: 
         - maintain a clean structure
         - change the copy from one location
@@ -35,6 +40,7 @@ Repository for my digital resume samantha-stone.com
 ## App.jsx: main application that routes all component pages to be rendered
 
 # Credits: 
+- 3D Animated Bird: 
 - 3D Resume Tutorial: JavaScript Mastery (https://www.youtube.com/watch?v=0fYi8SGA20k) 
 - 3D Orchid File: This work is based on "Orchid flower" (https://sketchfab.com/3d-models/orchid-flower-75d19624c0d04b65975e011a04ae77a0) by Lassi Kaukonen (https://sketchfab.com/thesidekick) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 - Canvas Background: Designed by Freepik (http://www.freepik.com)
