@@ -1,9 +1,9 @@
 # samantha-stone-portfolio
 Repository for my digital resume samantha-stone.com
 
-Frameworks & Libraries
-    - Vite to react template files 
-    - Tailwind for css framework
+##Frameworks & Libraries
+    -Vite to react template files 
+    -Tailwind for css framework
     - Legacy peer deps used to accomodate legacy version of react for react for react tilt library
     - react-fiber and react-drei: 3js library for 3d image control
     - maath: math functions for 3d geometry
@@ -36,7 +36,7 @@ App.jsx: main application that routes all component pages to be rendered
 
 Nav
 
-Credits: 
+##Credits: 
 - 3D Resume Tutorial: JavaScript Mastery (https://www.youtube.com/watch?v=0fYi8SGA20k) 
 - 3D Orchid File: This work is based on "Orchid flower" (https://sketchfab.com/3d-models/orchid-flower-75d19624c0d04b65975e011a04ae77a0) by Lassi Kaukonen (https://sketchfab.com/thesidekick) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 - Canvas Background: Designed by Freepik (http://www.freepik.com)
