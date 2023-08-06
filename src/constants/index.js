@@ -64,70 +64,26 @@ import {
     {
       name: "B.A. Computer Science",
       icon: ucdChem,
+      description:"Univeristy of Colorado Denver",
+      date: "May 2023"
     },
     {
       name: "B.S. Biochemistry",
       icon: ucdChem,
+      description:"Cum Laude - Univeristy of Colorado Denver",
+      date: "May 2023"
     },
     {
       name: "Network+",
       icon: comptia,
+      description: "Certificate Number: ", 
+      date: "August 2023"
     },
     {
       name: "Mirth Fundementals",
       icon: mirth,
-    },
-    {
-      name: "HL7",
-      icon: html,
-    },
-    {
-      name: "AWS EC2",
-      icon: ec2,
-    },
-    {
-      name: "AWS S3",
-      icon: s3,
-    },
-    {
-      name: "AWS Transfer Family",
-      icon: tfamily,
-    },
-    {
-      name: "Office 365",
-      icon: o365,
-    },
-    {
-      name: "C",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "ReactJS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind",
-      icon: tailwind,
-    },
-    {
-      name: "NodeJs",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "Github",
-      icon: git,
+      description: "Certificate Number: ",
+      date: "November 2022"
     },
 
   ];

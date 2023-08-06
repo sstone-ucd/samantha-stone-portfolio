@@ -11,8 +11,7 @@ const BirdCanvas = () => {
           //FOV: how wide the canvas is
           camera={{ position: [0, 0, 10], fov:25 }}
           shadows
-          frameloop='demand'
-        
+          frameloop='demand'  
       >
 
 

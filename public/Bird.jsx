@@ -29,7 +29,7 @@ export function Model(props, {isMobile}) {
           <group name="bfb1ea86655f4c4ab4c6cbbb449cedf4fbx" rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
             <group name="Object_2">
               <group name="RootNode">
-                <group name="BirdOrange_all" position={isMobile ? [0, 0, 0]:[0, -4, 0]}>
+                <group name="BirdOrange_all" position={isMobile ? [0, 0, 0]:[0, -3, 0]}>
                   <group name="Main" position={[-0.083, 0, 0.451]} rotation={[0, -0.074, 0]}>
                     <group name="Object_6">
                       <primitive object={nodes._rootJoint}  />

@@ -7,27 +7,30 @@ import { fadeIn, textVariant } from '../util/motion';
 import { SectionWrapper } from '../hoc';
 
 //function to bring const data from services in the const file to service card
-const ServiceCard = ({ index, name, icon}) => {
+const ServiceCard = ({ index, name, icon, description, date}) => {
   return(
     <Tilt className='xs:w-[250px] w-full'>
-      <motion.div
-        /* Card will fade in from the right and spring in with 0.5s delay */
-        variant={fadeIn("right", "spring", 0.5 * index, 1, 0.75)}
-        className='card rounded-[20px]' 
-        
-      >
-        <div
+      <motion.div variants={index} className='card rounded-[20px] group perspective:1000px'>
+        <div className='relative h-[150px] rounded-2xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'
           options={{
-            max: 45, 
-            scale: 1, 
+            max:45, 
+            scale:1, 
             speed: 450
           }}
-          className='bg-white rounded-[20px] h-[220px] py-5 px-12 flex justify-evenly items-center flex-col border-4 border-tertiary'
         >
-          <img src={icon} alt={name} 
-            className='w-16 h-16 object-contain'/>
-            <h3 className='text-charcoal text-[20px] font-bold text-center'>{name}</h3>
+          
+          <div className='absolute h-full w-full bg-herb text-center rounded-2xl [backface-visibility:hidden]'>
+            <img className='mt-[20px] mx-auto rounded-xl h-16 w-16 object-contain object-center' src={icon}/>
+            <p>{name}</p>
+          </div>
+
+          <div className='rounded-xl h-full w-full text-herb border-2 border-herb bg-white text-center [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+            <p className='mt-[20px] font-bold'> { name } </p>
+            <p> {description}</p>
+            <p> {date} </p>
+          </div>
         </div>
+
       </motion.div>
     
 
