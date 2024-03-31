@@ -2,9 +2,11 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github } from '../assets';
+import { NetworkSpecialist } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../util/motion';
+
 
 //each project contains: name, color, description, image, source-code link
 const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
@@ -18,7 +20,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
           scale: 1, 
           speed: 450,
         }}
-        className="bg-charcoal p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-chilli p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className='relative w-full h-[230px]'>
           <img 
@@ -37,6 +39,11 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
                 alt="github"
                 className='w-10 h-10 object-cover'
               />
+              <img 
+                src={NetworkSpecialist}
+                alt="pageLink"
+                className='w-10 h-10 object-cover'
+              />  
             </div>
           </div>
         </div>
@@ -44,7 +51,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
         {/* Name and description of the project */}
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-white text-[14px]'>{description}</p>
+          <p className='mt-2 text-white text-[14px] h-[180px]'>{description}</p>
         </div>
         {/* loop through the tags for each project and add the specified color for each tag */}
         <div className='mt-4 flex flex-wrap gap-2'> 
@@ -66,7 +73,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>I get it, you just want to see the code </p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <h2 className={styles.sectionHeadText}>Passion Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -74,8 +81,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Feel free to look through the projects I&apos;ve worked on (that I&apos;m at liberty to post).
-          Yes, its all over the place. What can I say? I like to dabble! Its the best way to learn!
+          Here are my favorite passion projects, take a look and feel free to use them!
         </motion.p>
       </div>  
       
@@ -83,7 +89,7 @@ const Works = () => {
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index)=>(
           //grab the key to the project
-          <ProjectCard key={`project-${index}`} 
+          <ProjectCard key={`project-${index}`}
           //and evertything else belonging to that key
             index = {index}
             {...project}

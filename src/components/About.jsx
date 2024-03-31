@@ -47,7 +47,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30-x]'
       >
         A dynamic and versatile professional with a broad range of skills and knowledge across multiple domains. 
-        Specializing in AWS EC2/S3/Transfer family, SFTP, Office 365 administration and app use, HL7 interfacing, 
+        Specializing in AWS EC2/S3/Transfer family, VMWare, SFTP, Office 365/Network administration and app use, HL7 interfacing, 
         C programming, web development in JavaScript, and network security.
       </motion.p>
 

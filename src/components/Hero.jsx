@@ -10,17 +10,17 @@ const Hero = () => {
       <div className={`${styles.pagddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
           {/* circle graphic near introduction */}
-          <div className='w-5 h-5 rounded-full bg-[#626E60]' />
+          <div className='w-5 h-5 rounded-full bg-[#000053]' />
           {/* line portion of graphic near introduction */}
           <div className='w-1 sm:h-80 h-40 herb-gradient' />
         </div>
       {/* Introduction */}
       <div>
-        <h1 className={`${styles.heroHeadText} text-[#3C3C3C]`}>Welcome, <span className='text-[#626E60]'>lovely to see you!</span></h1>
+        <h1 className={`${styles.heroHeadText} text-[#3C3C3C]`}>Welcome, <span className='text-[#000053]'>lovely to see you!</span></h1>
         <p className={`${styles.heroSubText} mt-2 text-charcoal`}>
           You made it to my online resume, thats a good sign. 
           <br className='sm:block hidden'  /> Check out some of my projects below!
-          <br className='sm:block hidden'  /> Or pet the bird and see if he jumps!  
+          <br className='sm:block hidden'  /> Dont forget to pet my 3D bird Kevin before you scroll!  
         </p>
       </div>
       </div>

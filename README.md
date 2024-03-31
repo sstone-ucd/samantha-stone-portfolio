@@ -1,6 +1,10 @@
 # samantha-stone-portfolio
 Repository for my digital resume samantha-stone.com
 
+# NPM Commands
+    - npm run dev: run the file and view it in a web browser
+    - npm run build: build the file for export
+
 # Frameworks & Libraries
     - Vite to react template files 
     - Tailwind for css framework

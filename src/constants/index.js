@@ -64,7 +64,7 @@ import {
     {
       name: "B.A. Computer Science",
       icon: ucdChem,
-      description:"Univeristy of Colorado Denver",
+      description:"Special Honors - Univeristy of Colorado Denver",
       date: "May 2023"
     },
     {
@@ -76,13 +76,13 @@ import {
     {
       name: "Network+",
       icon: comptia,
-      description: "Certificate Number: ", 
+      description: "Certificate Number: COMP001021065158 ", 
       date: "August 2023"
     },
     {
       name: "Mirth Fundementals",
       icon: mirth,
-      description: "Certificate Number: ",
+      description: "Certificate Number: MC01579",
       date: "November 2022"
     },
 
@@ -151,67 +151,46 @@ import {
   
   const projects = [
     {
-      name: "Portfolio",
+      name: "Taste The Days",
       description:
-        "No, this isnt inception, you're not in a dream within a dream, this is the respository for the very portfolio you see before you now.  There are tons of great 3D and react libraries used here",
+        "I found myself unable to commit to meal-prepping and its because I was way overcomplicating it for myself. This web application allows you to plan your meal prep ahead time (or use preloaded templates) so you can commit to your fitness goals!",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: portfolio,
-      source_code_link: "https://github.com/sstone-ucd/samantha-stone-portfolio.git",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "React",
+          color: "charcoal",
         },
         {
           name: "restapi",
-          color: "green-text-gradient",
+          color: "herb",
         },
         {
           name: "scss",
-          color: "pink-text-gradient",
+          color: "white",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.tastethedays.com",
     },
     {
-      name: "Trip Guide",
+      name: "Container Conscious",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "We've all wondered \"Can I recycle this?\" I built container conscious to answer that question using AI and python. My intention with this web app is to make recycling just a little easier to encourage more of us to commit to a smaller carbon footprint. Check out my blog for ideas on upcycling your containers too!",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "A.I.",
+          color: "charcoal",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "Python",
+          color: "black",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Django",
+          color: "white",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://containerconscious.com/",
     },
   ];
   

@@ -6,15 +6,15 @@ module.exports = {
     extend: {
       colors: {
         primary: "#ffffff",
-        secondary: "#626E60",
+        secondary: "#000053",
         tertiary: "#945D60",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
         "terracotta": "#945D60", 
-        "herb": "#626E60",
+        "herb": "#000053",
         "herb-lite": "#b1b7b0", 
-        "chilli": "#AF473C", 
+        "chilli": "#4D7C8A", 
         "charcoal": "#3C3C3C", 
       },
       boxShadow: {
