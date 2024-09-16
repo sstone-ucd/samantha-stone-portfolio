@@ -43,7 +43,7 @@ const Tech = () => {
     //use react fragment instead of div to clear out the DOM and focus on this section 
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>You're still here?  Sweet let me show you some of my sweet...</p>
+        <p className={styles.sectionSubText}>You're still here?  Awesome let me show you some of my...</p>
         <h2 className={styles.sectionHeadText}>Skills and Certs</h2>
       </motion.div>
       <div className='mt-10 flex flex-wrap gap-10'>

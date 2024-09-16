@@ -5,6 +5,7 @@ import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
+import Personal from './Personal'
 import Contact from './Contact';
 
 export {
@@ -14,6 +15,7 @@ export {
   Tech,
   Experience,
   Works,
+  Personal,
   Contact, 
   OrchidCanvas, 
   StarsCanvas, 

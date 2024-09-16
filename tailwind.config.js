@@ -26,6 +26,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/AbstractLines.jpg')",
       },
+      listStyleType: {
+        disc: 'circle', // Use 'circle' to specify open circles
+      },
     },
   },
   plugins: [],

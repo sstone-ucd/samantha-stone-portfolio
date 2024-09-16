@@ -7,23 +7,12 @@ import {
     mirth, 
     ucdChem, 
     comptia,
-    ec2, 
-    s3, 
-    tfamily,
-    o365,
-    javascript,
-    html,
-    css,
-    reactjs,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
     jobit,
     tripguide,
-    threejs,
-    portfolio,
-
+    family,
+    fizz,
+    travel,
+    food
   } from "../assets";
   
   export const navLinks = [
@@ -160,11 +149,11 @@ import {
           color: "charcoal",
         },
         {
-          name: "restapi",
+          name: "Restful API",
           color: "herb",
         },
         {
-          name: "scss",
+          name: "SCSS",
           color: "white",
         },
       ],
@@ -193,5 +182,43 @@ import {
       source_code_link: "https://containerconscious.com/",
     },
   ];
+
+const hobbies = [
+  {
+    hobby: "Picking up new skills at work",
+    note:"I’m an IT executive and a chemist! I love that every day is challenging and different!",
+  },  
+  { 
+    hobby:"Trying new recipes", 
+    note: "My NYT Cooking subscription is a lifeline for this"
+  },
+  {
+    hobby: "I’ve started learning how to play the piano", 
+    note: "The apps available these days are a game changer"
+  },
+  { 
+    hobby: "Traveling", 
+    note:"I’ve been to a handful of countries now, each one has been special and unique"
+  }
+];
+
+const favorites = [
+  {
+    fav:"My family", 
+    pic: family
+  },
+  {
+    fav:"My cat",
+    pic: fizz
+  },
+  {
+    fav:"Traveling",
+    pic: travel
+  },
+  {
+    fav:"Good food",
+    pic: food
+  }
+];
   
-  export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, hobbies, favorites };

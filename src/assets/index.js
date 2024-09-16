@@ -24,12 +24,20 @@ import ec2 from "./awsEC2.png";
 import s3 from "./s3.png"; 
 import tfamily from "./transferFamily.png";
 import o365 from "./o365.png";
-import portfolio from "./portfolioPic.png"
+import portfolio from "./portfolioPic.png";
+import food from "./food.jpeg";
+import fizz from "./fizz.jpeg";
+import family from "./family.jpeg";
+import travel from "./travel.jpeg";
 
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  food,
+  family,
+  fizz,
+  travel,
   logo,
   github,
   menu,
