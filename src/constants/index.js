@@ -7,12 +7,14 @@ import {
     mirth, 
     ucdChem, 
     comptia,
-    jobit,
-    tripguide,
+    prepsit,
+    sglaboratories,
     family,
     fizz,
     travel,
-    food
+    food, 
+    sgclinical,
+    flowers
   } from "../assets";
   
   export const navLinks = [
@@ -79,7 +81,7 @@ import {
   
   const experiences = [
     {
-      title: "IT Executive Director",
+      title: "Executive Director of Operations and Information Technology",
       company_name: "S&G Labs",
       icon: SGLABS,
       iconBg: "#ffffff",
@@ -140,12 +142,12 @@ import {
   
   const projects = [
     {
-      name: "Taste The Days",
+      name: "PrepsIt",
       description:
-        "I found myself unable to commit to meal-prepping and its because I was way overcomplicating it for myself. This web application allows you to plan your meal prep ahead time (or use preloaded templates) so you can commit to your fitness goals!",
+        "Import, organize, and enjoy your recipes as you plan your meals for the week ahead.",
       tags: [
         {
-          name: "React",
+          name: "React-Native",
           color: "charcoal",
         },
         {
@@ -153,33 +155,46 @@ import {
           color: "herb",
         },
         {
-          name: "SCSS",
-          color: "white",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://www.tastethedays.com",
-    },
-    {
-      name: "Container Conscious",
-      description:
-        "We've all wondered \"Can I recycle this?\" I built container conscious to answer that question using AI and python. My intention with this web app is to make recycling just a little easier to encourage more of us to commit to a smaller carbon footprint. Check out my blog for ideas on upcycling your containers too!",
-      tags: [
-        {
-          name: "A.I.",
-          color: "charcoal",
-        },
-        {
-          name: "Python",
-          color: "black",
-        },
-        {
           name: "Django",
           color: "white",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://containerconscious.com/",
+      image: prepsit,
+      source_code_link: "https://www.prepsit.com",
+    },
+    {
+      name: "S&G Clinical",
+      description:
+        "Your trusted partner for clinical compliance and cost-saving solutions – SG Clinical keeps your practice running smoothly.",
+      tags: [
+        {
+          name: "React",
+          color: "charcoal",
+        },
+        {
+          name: "TailwindCSS",
+          color: "black",
+        },
+      ],
+      image: sgclinical,
+      source_code_link: "https://sgclinical.com/",
+    },
+    {
+      name: "S&G Laboratories",
+      description:
+        "Precision diagnostics and reliable solutions – SG Laboratories, where accuracy meets innovation.",
+      tags: [
+        {
+          name: "WordPress",
+          color: "charcoal",
+        },
+        {
+          name: "CSS",
+          color: "black",
+        },
+      ],
+      image: sglaboratories,
+      source_code_link: "https://sglaboratories.com/",
     },
   ];
 
@@ -203,10 +218,7 @@ const hobbies = [
 ];
 
 const favorites = [
-  {
-    fav:"My family", 
-    pic: family
-  },
+
   {
     fav:"My cat",
     pic: fizz
@@ -218,7 +230,158 @@ const favorites = [
   {
     fav:"Good food",
     pic: food
+  },
+  {
+    fav:"Nature", 
+    pic: flowers,
   }
 ];
+
+const skills = [
+  {
+    name: "Office 365"
+  },
+  {
+    name: "VMWare"
+  },
+  {
+    name: "MSSQL"
+  },
+  {
+    name: "Microsoft Server"
+  },
+  {
+    name: "MongoDB"
+  },
+  {
+    name: "Docker"
+  },
+  {
+    name: "GitHub"
+  },
+  {
+    name: "Transfer Family"
+  },
+  {
+    name: "WordPress"
+  },
+  {
+    name: "RDP"
+  },
+  {
+    name: "Price Negotiation"
+  },
+  {
+    name: "PostgreSQL"
+  },
+  {
+    name: "Mirth"
+  },
+  {
+    name: "SciexOS"
+  },
+  {
+    name: "Python"
+  },
+  {
+    name: "Django"
+  },
+  {
+    name: "HL7"
+  },
+  {
+    name: "C/C++"
+  },
+  {
+    name: "C#"
+  },
+  {
+    name: "JavaScript"
+  },
+  {
+    name: "NodeJS"
+  },
+  {
+    name: "Tailwind"
+  },
+  {
+    name: "SQL"
+  },
+  {
+    name: "MERN Stack"
+  },
+  {
+    name: "Firewalls"
+  },
+  {
+    name: "HTML"
+  },
+  {
+    name: "AWS"
+  },
+  {
+    name: "RDS"
+  },
+  {
+    name: "EC2"
+  },
+  {
+    name: "S3"
+  },
+  {
+    name: "CSS"
+  },
+  {
+    name: "Git"
+  },
+  {
+    name: "React"
+  },
+  {
+    name: "Management"
+  },
+  {
+    name: "System Automation"
+  },
+  {
+    name: "Liquid Extraction"
+  },
+  {
+    name: "Training"
+  },
+  {
+    name: "Vendor/Client Relations"
+  },
+  {
+    name: "Field Marketing"
+  },
+  {
+    name: "DevOps"
+  },
+  {
+    name: "Web Development"
+  },
+  {
+    name: "EMR & LIS Systems"
+  }, 
+  {
+    name: "Liquid Chromatography Mass Spectrometry (LCMS)"
+  },
+  {
+    name: "Sonicwall"
+  },
+  {
+    name: "SFTP"
+  },
+  {
+    name: "TCP/IP"
+  },
+  {
+    name: "Software Validation"
+  },
+  {
+    name: "SOP Documentation"
+  }, 
+];
   
-export { services, technologies, experiences, testimonials, projects, hobbies, favorites };
+export { services, technologies, experiences, testimonials, projects, hobbies, skills, favorites };

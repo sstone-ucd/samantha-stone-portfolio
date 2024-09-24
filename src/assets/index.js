@@ -29,10 +29,12 @@ import food from "./food.jpeg";
 import fizz from "./fizz.jpeg";
 import family from "./family.jpeg";
 import travel from "./travel.jpeg";
+import sgclinical from "./sgclinical.png";
+import link from "./link.svg";
+import flowers from "./flowers.png";
 
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+import sglaboratories from "./sglaboratories.png";
+import prepsit from "./prepsit.png";
 export {
   food,
   family,
@@ -52,8 +54,6 @@ export {
   redux,
   tailwind,
   threejs,
-  jobit,
-  tripguide,
   SystemAdmin,
   NetworkSpecialist, 
   WebDeveloper, 
@@ -66,5 +66,10 @@ export {
   s3, 
   tfamily,
   o365,
-  portfolio
+  portfolio, 
+  sgclinical,
+  sglaboratories,
+  prepsit,
+  link,
+  flowers,
 };

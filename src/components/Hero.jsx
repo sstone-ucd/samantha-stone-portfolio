@@ -5,7 +5,8 @@ import {BirdCanvas} from './canvas';
 const Hero = () => {
   return (
     //create a canvas (background) for the hwhol home page screen and auto adjust the margins
-    <section className='relative w-full h-screen mx-auto'>
+    <section className='relative w-full h-screen mx-auto grid grid-cols-2'>
+      <div >
       {/*Circle and line graphic:  Use the padding settings from the sytles.js file and tailwind css for other properties*/}
       <div className={`${styles.pagddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
@@ -17,11 +18,11 @@ const Hero = () => {
       {/* Introduction */}
       <div>
         <h1 className={`${styles.heroHeadText} text-[#3C3C3C]`}>Welcome, <span className='text-[#000053]'>lovely to see you!</span></h1>
-        <p className={`${styles.heroSubText} mt-2 text-charcoal`}>
-          You made it to my online resume, thats a good sign. 
-          <br className='sm:block hidden'  /> Check out some of my projects below!
-          <br className='sm:block hidden'  /> Dont forget to pet my 3D bird Kevin before you scroll!  
+        <p className={`${styles.heroSubText} mt-2 text-charcoal max-w-5xl`}>
+          Im an innovative thinker with a passion for integrating cutting-edge technology and seamless user experiences to drive impactful solutions.
+          <br className='sm:block hidden'  /> Feel free to pet Kevin before you scroll!  
         </p>
+      </div>
       </div>
       </div>
       {/* Add the 3-D animated image from the bird component*/}

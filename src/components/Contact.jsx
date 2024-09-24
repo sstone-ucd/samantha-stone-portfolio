@@ -4,6 +4,8 @@ import emailjs from '@emailjs/browser';
 import { SectionWrapper } from '../hoc'; 
 import { slideIn } from "../util/motion";
 import {LotusCanvas } from "./canvas";
+import {favorites } from '../constants';
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -51,6 +53,14 @@ const Contact = () => {
       })
   }
 
+  const FavoritesCard = ({ pic }) => {
+    return (
+      <div className="overflow-hidden">
+        <img className='mr-3 rounded-2xl h-52 w-52 object-cover object-center' src={pic} alt='Favorite' />
+      </div>
+    );
+  };
+
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div 
@@ -72,7 +82,7 @@ const Contact = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="What's your name?"
-                className="bg-herb-lite py-4 px-6 rounded-lg placeholder:text-secondary text-white outlined-none border-none font-medium"
+                className="bg-white py-4 px-6 rounded-lg placeholder:text-slate-400 text-secondary outlined-none border-none font-medium"
               />
             </label>
             
@@ -84,7 +94,7 @@ const Contact = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="What's your email?"
-                className="bg-herb-lite py-4 px-6 rounded-lg placeholder:text-secondary text-white outlined-none border-none font-medium"
+                className="bg-white py-4 px-6 rounded-lg placeholder:text-slate-400 text-secondary outlined-none border-none font-medium"
               />
             </label>
             <label className="flex flex-col">
@@ -95,7 +105,7 @@ const Contact = () => {
                 value={form.message}
                 onChange={handleChange}
                 placeholder="Lets hear it!"
-                className="bg-herb-lite py-4 px-6 rounded-lg placeholder:text-secondary text-white outlined-none border-none font-medium"
+                className="bg-white py-4 px-6 rounded-lg placeholder:text-slate-400 text-secondary outlined-none border-none font-medium"
               />
             </label>
 
@@ -110,14 +120,23 @@ const Contact = () => {
           </form>
         
         </motion.div>
-        {/* 3-D Image */}
+
+        
+        <div className='flex flex-wrap flex-col justify-center'>
+          {favorites.map((favs) => (
+            <FavoritesCard key={favs.fav} pic={favs.pic} />   
+          ))}
+        </div>
+
+        {/* 3-D Image      
         <motion.div
           variants={slideIn('right', 'tween', 0.2, 1)}
-          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] max-w-[350px]"
         >
           <LotusCanvas />
 
         </motion.div>
+         */}
 
     </div>
   )

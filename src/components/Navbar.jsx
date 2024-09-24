@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav
       className={
         //grab device padding from styles.js for each screen size and use tailwind to format className
-        `${styles.paddingX} w-full flex items-center py-5 fixed top-9 z-20 bg-secondary`}
+        `${styles.paddingX} w-full flex items-center py-5 pt-10 fixed z-20 bg-secondary`}
         >
           <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
             <Link

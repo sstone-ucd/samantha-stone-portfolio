@@ -2,7 +2,7 @@ import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { technologies } from '../constants'
+import { technologies, skills } from '../constants'
 import { fadeIn, textVariant } from '../util/motion'; 
 import { SectionWrapper } from '../hoc';
 
@@ -38,19 +38,34 @@ const ServiceCard = ({ index, name, icon, description, date}) => {
   )
 }
 
+
+const SkillCard = ({ index, name }) => {
+  return (
+    <div className='card border-2 px-1 border-secondary rounded-2xl text-secondary hover:bg-secondary hover:text-white'>
+      <p>{name}</p>
+    </div>
+
+  );
+};
+
 const Tech = () => {
   return (
     //use react fragment instead of div to clear out the DOM and focus on this section 
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>You're still here?  Awesome let me show you some of my...</p>
         <h2 className={styles.sectionHeadText}>Skills and Certs</h2>
       </motion.div>
-      <div className='mt-10 flex flex-wrap gap-10'>
+      <div className='mt-10 flex flex-wrap gap-10 justify-around'>
         {technologies.map((tech, index) => (
           <ServiceCard key={tech.name} index= {index} {...tech}/>
         ))}
 
+      </div>
+
+      <div className='mt-10 flex flex-wrap justify-around gap-4 text-[17px]'>
+        {skills.map((skill, index) =>(
+          <SkillCard key={skill.name} index= {index} {...skill}/>
+        ))}
       </div>
 
 

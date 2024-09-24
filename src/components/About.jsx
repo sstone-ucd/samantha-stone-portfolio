@@ -44,11 +44,14 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30-x]'
+        className='mt-4 text-secondary text-[20px] leading-[30-x]'
       >
-        A dynamic and versatile professional with a broad range of skills and knowledge across multiple domains. 
-        Specializing in AWS EC2/S3/Transfer family, VMWare, SFTP, Office 365/Network administration and app use, HL7 interfacing, 
-        C programming, web development in JavaScript, and network security.
+      <b>Welcome to my portfolio!</b> <br/> <br/>
+      I’m passionate about combining technology and operational efficiency to create solutions that make a real impact. 
+      With a background in IT management and laboratory operations, I’ve worked on a range of projects—from building user-friendly websites to streamlining complex workflows in highly regulated environments.
+      I understand the challenges of running a business and the importance of turning a profit, which is why I approach every project with a business-oriented mindset, always aiming to improve efficiency and reduce costs.
+      This space showcases my work, including my work experience, websites I&apos;ve developed, and platforms I work with to simplify processes, improve data accuracy, and enhance sustainability efforts. <br/> <br/>
+      <b>Take a look around, and feel free to reach out if you want to collaborate or learn more about what I do!</b>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
